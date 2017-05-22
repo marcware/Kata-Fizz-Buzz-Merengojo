@@ -1,7 +1,8 @@
-# Kata-Fizz-Buzz-Merengojo
-kata-fizzbuzz 2017 
 
-#Context Imagine the scene. You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more "fun" by introducing a "game".
+# kata-fizzbuzz 2017
+
+#Context Imagine the scene. 
+You are eleven years old, and in the five minutes before the end of the lesson, your Maths teacher decides he should make his class more "fun" by introducing a "game".
 
 He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The "fun" part is that if the number is divisible by three, you instead say "Fizz" and if it is divisible by five you say "Buzz".
 
@@ -15,7 +16,28 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 #Sample output
 
-1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz ... etc up to 100 Stop reading until you are developed this part
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+... etc up to 100
+Stop reading until you are developed this part
 
 New requirements
 
@@ -25,28 +47,34 @@ A number is Buzz if it has a 5 in it
 
 A number is FizzBuzz if
 
-it has a 3 in it it has a 5 in it The previous requirements are still correct.
+it has a 3 in it
+it has a 5 in it
+The previous requirements are still correct.
+# Base para el desarrollo de katas
 
-Base para el desarrollo de katas
+Configuración básica para empezar a hacer una kata o aprender a hacer 
+tests en PHP
 
-Configuración básica para empezar a hacer una kata o aprender a hacer tests en PHP
+## Instalación
+Tan solo es necesario descargar las dependencias con [composer](https://getcomposer.org/):
 
-Instalación
-
-Tan solo es necesario descargar las dependencias con composer:
-
+```
 $ ./composer.phar install 
 $ ./vendor/bin/phpunit
-Para usar PHP-CS-Fixer tan solo:
+```
 
+Para usar [PHP-CS-Fixer](http://cs.sensiolabs.org/) tan solo:
+
+```
 $ ./vendor/bin/php-cs-fixer fix src --rules=@PSR2
-Documentación
+```
 
-PSR
-PHPUnit
-Chuleta
-Prophecy para mocks
-TDD
-Chuleta
-Git
-Chuleta
+## Documentación
+- [PSR](https://www.udemy.com/instalando-symfony2/)
+- [PHPUnit](https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html)
+    - [Chuleta](http://otroblogmas.com/wp-content/uploads/2011/06/PHPUnit-Cheat-Sheet.pdf)
+- [Prophecy](https://github.com/phpspec/prophecy) para mocks
+- [TDD](http://librosweb.es/libro/tdd/) 
+    - [Chuleta](http://cv.jesuslc.com/slides/tdd/assets/player/KeynoteDHTMLPlayer.html)  
+- [Git](https://git-scm.com/)
+    - [Chuleta](http://blog.juanluisgarciaborrego.com/apuntes-git/)
